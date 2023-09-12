@@ -1,0 +1,1 @@
+## Auto remove chrome apps script
