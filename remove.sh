@@ -10,10 +10,10 @@ for (( i = 0; i < 6; i++ ));
 do
   if [[ -e ${appNames[$i]} ]];
   then
-      echo "Is exists! ${appNames[$i]}"
-      echo "Removing... ${appNames[$i]}"
-      rm -r "${appNames[$i]}" || echo "Remove ${appNames[$i]} Failed."
+    echo "Is exists! ${appNames[$i]}"
+    echo "Removing... ${appNames[$i]}"
+    rm -r "${appNames[$i]}" || echo "Remove ${appNames[$i]} Failed."
   else
-      echo "File does not exists! ${appNames[$i]}"
+    echo "File does not exists! ${appNames[$i]}"
   fi
 done
